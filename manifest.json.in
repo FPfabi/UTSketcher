@@ -1,0 +1,15 @@
+{
+    "name": "sketcher.fabianhuck",
+    "description": "draw, sketch and edit pictures",
+    "architecture": "@CLICK_ARCH@",
+    "title": "Sketcher",
+    "hooks": {
+        "sketcher": {
+            "apparmor": "sketcher.apparmor",
+            "desktop":  "sketcher.desktop"
+        }
+    },
+    "version": "1.0.1",
+    "maintainer": "Fabian Huck <fabian_huck@web.de>",
+    "framework" : "@CLICK_FRAMEWORK@"
+}
